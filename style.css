@@ -120,8 +120,8 @@ main {
 }
 
 /* What I do style */
-.what-i-do{
-    margin: 5px 230px;
+.what-i-do {
+  margin: 5px 230px;
 }
 .work-info-container {
   display: flex;
@@ -142,58 +142,61 @@ main {
   font-weight: 700;
 }
 .work-description {
-  color:  #757575;
+  color: #757575;
   padding: 3px;
   font-size: 14px;
   font-weight: 400;
 }
 
 /* resume style */
-.resume{
-    margin: 20px 25px;
-    padding: 5px;
+.resume {
+  margin: 20px 25px;
+  padding: 5px;
 }
-.resume-container{
-    display: flex;
+.resume-container {
+  display: flex;
 }
 
-.education, .experience{
-    margin: 5px 15px;
-    padding:5px 10px;
+.education,
+.experience {
+  margin: 5px 15px;
+  padding: 5px 10px;
 }
-.experience-info-container,.education-info-container{
-    margin: 3px;
+.experience-info-container,
+.education-info-container {
+  margin: 3px;
 }
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
 
 /* Footer area style */
-footer{
-    background: #FFF8F3;
-    max-width: 1600px;
-
+footer {
+  background: #fff8f3;
+  max-width: 1600px;
 }
-.footer-container{
-    display: flex;
-    margin: 20px 30px;
-    justify-content: space-between;
+.footer-container {
+  display: flex;
+  margin: 20px 30px;
+  justify-content: space-between;
 }
 .message-area {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
-.contact-area{
-   margin-left:  50px;
-   margin-right: 150px;
+.contact-area {
+  margin-left: 50px;
+  margin-right: 150px;
 }
 
-input[type='text'],input[type='email'],textarea{
-    padding: 5px;
-    margin:  5px 0;
-    border: none;
-    width: 100%;
-    border-radius: 5px;
-    font-size: 15px;
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 5px;
+  margin: 5px 0;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 15px;
 }
