@@ -1,88 +1,199 @@
 /* common shared Styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Primary Color */
 .primary-color {
-    color: #FD6E0A;
+  color: #fd6e0a;
 }
 
 .btn-primary {
-    border: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 5px;
-    background: #FD6E0A;
-    padding: 15px 35px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 15px 35px;
 }
 
 /* Nav related styles */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 70px;
 }
 
 .nav-title {
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-nav>ul {
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-    list-style-type: none;
-    margin-right: 50px;
-
+  list-style-type: none;
+  margin-right: 50px;
 }
 
 nav li a {
-    text-decoration: none;
-    font-size: 20px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 /* header styles*/
 .header {
-    background-color: #FFF8F3;
-    background-image: url(images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
+  background-color: #fff8f3;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .banner .profile-picture {
-    width: 400px;
+  width: 400px;
 }
 
 .banner-greeting {
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 0;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .banner .banner-title {
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 0;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0;
 }
 
-.banner .banner-drescription{
-    font-size: 18px;
-    font-weight: 400;
+.banner .banner-drescription {
+  font-size: 18px;
+  font-weight: 400;
 }
-.banner .banner-content{
-    max-width: 500px;
+
+.banner .banner-content {
+  max-width: 500px;
+}
+
+/* Main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About Section style */
+.about {
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 50px 230px;
+  padding: 10px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px;
+}
+
+/* What I do style */
+.what-i-do{
+    margin: 5px 230px;
+}
+.work-info-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1600px;
+}
+.work-info {
+  border-radius: 5px;
+  margin: 5px 15px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 15px;
+}
+.work-title {
+  padding: 3px;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+.work-description {
+  color:  #757575;
+  padding: 3px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* resume style */
+.resume{
+    margin: 20px 25px;
+    padding: 5px;
+}
+.resume-container{
+    display: flex;
+}
+
+.education, .experience{
+    margin: 5px 15px;
+    padding:5px 10px;
+}
+.experience-info-container,.education-info-container{
+    margin: 3px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer area style */
+footer{
+    background: #FFF8F3;
+    max-width: 1600px;
+
+}
+.footer-container{
+    display: flex;
+    margin: 20px 30px;
+    justify-content: space-between;
+}
+.message-area {
+    margin-right: 30px;
+}
+
+.contact-area{
+   margin-left:  50px;
+   margin-right: 150px;
+}
+
+input[type='text'],input[type='email'],textarea{
+    padding: 5px;
+    margin:  5px 0;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
 }
